@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: DM Sans;
+  }
+  
+  * {
+    box-sizing: border-box;
+    line-height: normal;
+    font-family: inherit;
+    margin: unset;
+  }
+  
+  a {
+    text-decoration: none;
+    display: block;
+  }
+  
+  ul {
+    margin: 0;
+    margin-inline: unset !important;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .tablethefeature {
+    tbody td:first-child {
+      padding-left: 24px;
+    }
+    tbody td:last-child {
+      padding-right: 24px;
+    }
+  }
+  
+  table {
+    table-layout: fixed;
+  }
+  
+  /* Custom gradient classes */
+  .bg-gradient {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.54) 100%);
+  }
+  
+  /* Custom color variables */
+  :root {
+    --black_900: #000000;
+    --black_900_00: #00000000;
+    --black_900_7f: #0000007f;
+    --black_900_99: #00000099;
+    --black_900_8a: #0000008a;
+    --gray_100: #f5f5f5;
+    --gray_200: #eeeeee;
+    --gray_300: #e0e0e0;
+    --indigo_200: #c7d2fe;
+    --orange_200: #fed7aa;
+    --purple_300: #c4b5fd;
+    --white_a700: #ffffff;
+    --white_a700_3f: #ffffff3f;
+    --white_a700_7f: #ffffff7f;
+    --white_a700_99: #ffffff99;
+    --white_a700_bf: #ffffffbf;
+  }
+  
