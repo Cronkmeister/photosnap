@@ -8,7 +8,7 @@ export default function BetaInviteSection() {
         {/* Background image */}
         <img
           src="/assets/shared/desktop/bg-beta.jpg"
-          alt="Slot canyon landscape"
+          alt="Slot canyon with dramatic rock formations"
           className="w-full h-full object-cover object-center"
         />
 
@@ -30,7 +30,7 @@ export default function BetaInviteSection() {
 
             {/* GET AN INVITE link */}
             <a
-              href="#"
+              href="/get-invite"
               className="inline-flex items-center gap-4 text-white text-xs font-bold tracking-[2px] uppercase group hover:underline"
             >
               GET AN INVITE

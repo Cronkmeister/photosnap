@@ -8,7 +8,7 @@ export default function FeaturesSection1() {
         {/* Background image */}
         <img
           src="/assets/shared/desktop/bg-beta.jpg"
-          alt="Slot canyon landscape"
+          alt="Slot canyon with dramatic rock formations"
           className="w-full h-full object-cover object-center"
         />
 

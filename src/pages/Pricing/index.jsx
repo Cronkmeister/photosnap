@@ -1,5 +1,5 @@
 import { Helmet } from "react-helmet";
-import { Img, Heading, Button } from "../../components";
+import { Heading } from "../../components";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import { ReactTable } from "../../components/ReactTable";

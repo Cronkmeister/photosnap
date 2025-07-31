@@ -55,7 +55,7 @@ export default function Header({ ...props }) {
           {/* Desktop Get an Invite Button */}
           <div className="hidden md:flex min-w-[160px] justify-end">
             <a
-              href="#"
+              href="/get-invite"
               className="bg-black text-white text-xs font-bold tracking-[2px] uppercase px-6 py-3 hover:bg-[#DFDFDF] hover:text-black transition-colors"
             >
               GET AN INVITE
@@ -143,7 +143,7 @@ export default function Header({ ...props }) {
                 {/* Mobile Get an Invite Button */}
                 <div className="border-t border-gray-200 pt-6">
                   <a
-                    href="#"
+                    href="/get-invite"
                     className="block w-full bg-black text-white text-sm font-bold tracking-[2px] uppercase px-6 py-4 text-center hover:bg-[#DFDFDF] hover:text-black transition-colors"
                     onClick={toggleMenu}
                   >

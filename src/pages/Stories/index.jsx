@@ -1,5 +1,4 @@
 import { Helmet } from "react-helmet";
-import { Button, Heading, Img } from "../../components";
 import ArticleCard from "../../components/ArticleCard";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
